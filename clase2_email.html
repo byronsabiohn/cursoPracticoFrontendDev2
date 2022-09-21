@@ -33,6 +33,7 @@
             display: grid;
             grid-template-rows: auto 1fr auto;
             width: 300px;
+            justify-items: center;
         }
         .logo {
             width: 150px;
@@ -68,7 +69,13 @@
         .resend {
             font-size: var(--sm);
         }
-        
+        . resend span {
+            color: var(--very-light-pink);
+        }
+        .resend a {
+            color: var(--hospital-green);
+            text-decoration: none;
+        }
         .primary-button {
             background-color: var(--hospital-green);
             border-radius: 8px;
