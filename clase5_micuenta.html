@@ -72,11 +72,16 @@
         .input-password {
             margin-bottom: 22px;
         }
-        .primary-button {
-            background-color: var(--hospital-green);
+        .value {
+            color: var(--very-light-pink);
+            font-size: var(--md);
+            margin-bottom: 8px 0 32px 0;
+        }
+        .secondary-button {
+            background-color: var(--white);
             border-radius: 8px;
-            border: none;
-            color: var(--white);
+            border: 1px solid var(--hospital-green);
+            color: var(--hospital-green);
             width: 100%;
             cursor: pointer;
             font-size: var(--md);
@@ -111,31 +116,22 @@
                 <div>
                     <label for="name" 
                 class="label">Name</label>
-                <input type="text" 
-                id="name" 
-                placeholder="Delta Tech Honduras" 
-                class="input input-name">
+                <p class="value">Delta Tech Honduras</p>
 
                 <label for="email" 
                 class="label">Email Address</label>
-                <input type="email" 
-                id="email" 
-                placeholder="info@deltatechhonduras" 
-                class="input input-email">
+                <p class="value">info@deltatechhonduras.com</p>
 
                 <label for="password" 
                 class="label">Password</label>
-                <input type="password" 
-                id="password" 
-                placeholder="**********" 
-                class="input input-password">
+                <p class="value">**********</p>
                 </div>
 
                 
 
                
                 <input type="submit" 
-                value="Create" class="primary-button 
+                value="Edit" class="secondary-button 
                 login-button">
 
             </form>
